@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B40C20EC160AFCA20060CBE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40C20EB160AFCA20060CBE2 /* UIKit.framework */; };
+		B40C20EE160AFCA20060CBE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40C20ED160AFCA20060CBE2 /* Foundation.framework */; };
+		B40C20F0160AFCA20060CBE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40C20EF160AFCA20060CBE2 /* CoreGraphics.framework */; };
+		B40C20F6160AFCA20060CBE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B40C20F4160AFCA20060CBE2 /* InfoPlist.strings */; };
+		B40C20F8160AFCA20060CBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C20F7160AFCA20060CBE2 /* main.m */; };
+		B40C20FC160AFCA20060CBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C20FB160AFCA20060CBE2 /* AppDelegate.m */; };
+		B40C20FF160AFCA20060CBE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C20FE160AFCA20060CBE2 /* ViewController.m */; };
+		B40C2102160AFCA20060CBE2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40C2100160AFCA20060CBE2 /* ViewController.xib */; };
+		B40C2109160AFDBA0060CBE2 /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40C2108160AFDBA0060CBE2 /* AccessoryView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B40C20E7160AFCA20060CBE2 /* SK_KeyboardAccessoryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SK_KeyboardAccessoryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40C20EB160AFCA20060CBE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B40C20ED160AFCA20060CBE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B40C20EF160AFCA20060CBE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B40C20F3160AFCA20060CBE2 /* SK_KeyboardAccessoryExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SK_KeyboardAccessoryExample-Info.plist"; sourceTree = "<group>"; };
+		B40C20F5160AFCA20060CBE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B40C20F7160AFCA20060CBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B40C20F9160AFCA20060CBE2 /* SK_KeyboardAccessoryExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SK_KeyboardAccessoryExample-Prefix.pch"; sourceTree = "<group>"; };
+		B40C20FA160AFCA20060CBE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B40C20FB160AFCA20060CBE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B40C20FD160AFCA20060CBE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B40C20FE160AFCA20060CBE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B40C2101160AFCA20060CBE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B40C2108160AFDBA0060CBE2 /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B40C20E4160AFCA20060CBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C20EC160AFCA20060CBE2 /* UIKit.framework in Frameworks */,
+				B40C20EE160AFCA20060CBE2 /* Foundation.framework in Frameworks */,
+				B40C20F0160AFCA20060CBE2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40C20DC160AFCA10060CBE2 = {
+			isa = PBXGroup;
+			children = (
+				B40C20F1160AFCA20060CBE2 /* SK_KeyboardAccessoryExample */,
+				B40C20EA160AFCA20060CBE2 /* Frameworks */,
+				B40C20E8160AFCA20060CBE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B40C20E8160AFCA20060CBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B40C20E7160AFCA20060CBE2 /* SK_KeyboardAccessoryExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40C20EA160AFCA20060CBE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B40C20EB160AFCA20060CBE2 /* UIKit.framework */,
+				B40C20ED160AFCA20060CBE2 /* Foundation.framework */,
+				B40C20EF160AFCA20060CBE2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B40C20F1160AFCA20060CBE2 /* SK_KeyboardAccessoryExample */ = {
+			isa = PBXGroup;
+			children = (
+				B40C20FA160AFCA20060CBE2 /* AppDelegate.h */,
+				B40C20FB160AFCA20060CBE2 /* AppDelegate.m */,
+				B40C20FD160AFCA20060CBE2 /* ViewController.h */,
+				B40C20FE160AFCA20060CBE2 /* ViewController.m */,
+				B40C2108160AFDBA0060CBE2 /* AccessoryView.xib */,
+				B40C2100160AFCA20060CBE2 /* ViewController.xib */,
+				B40C20F2160AFCA20060CBE2 /* Supporting Files */,
+			);
+			path = SK_KeyboardAccessoryExample;
+			sourceTree = "<group>";
+		};
+		B40C20F2160AFCA20060CBE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B40C20F3160AFCA20060CBE2 /* SK_KeyboardAccessoryExample-Info.plist */,
+				B40C20F4160AFCA20060CBE2 /* InfoPlist.strings */,
+				B40C20F7160AFCA20060CBE2 /* main.m */,
+				B40C20F9160AFCA20060CBE2 /* SK_KeyboardAccessoryExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B40C20E6160AFCA20060CBE2 /* SK_KeyboardAccessoryExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40C2105160AFCA20060CBE2 /* Build configuration list for PBXNativeTarget "SK_KeyboardAccessoryExample" */;
+			buildPhases = (
+				B40C20E3160AFCA20060CBE2 /* Sources */,
+				B40C20E4160AFCA20060CBE2 /* Frameworks */,
+				B40C20E5160AFCA20060CBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK_KeyboardAccessoryExample;
+			productName = SK_KeyboardAccessoryExample;
+			productReference = B40C20E7160AFCA20060CBE2 /* SK_KeyboardAccessoryExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B40C20DE160AFCA10060CBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B40C20E1160AFCA10060CBE2 /* Build configuration list for PBXProject "SK_KeyboardAccessoryExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B40C20DC160AFCA10060CBE2;
+			productRefGroup = B40C20E8160AFCA20060CBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B40C20E6160AFCA20060CBE2 /* SK_KeyboardAccessoryExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40C20E5160AFCA20060CBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C20F6160AFCA20060CBE2 /* InfoPlist.strings in Resources */,
+				B40C2102160AFCA20060CBE2 /* ViewController.xib in Resources */,
+				B40C2109160AFDBA0060CBE2 /* AccessoryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B40C20E3160AFCA20060CBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C20F8160AFCA20060CBE2 /* main.m in Sources */,
+				B40C20FC160AFCA20060CBE2 /* AppDelegate.m in Sources */,
+				B40C20FF160AFCA20060CBE2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B40C20F4160AFCA20060CBE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B40C20F5160AFCA20060CBE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B40C2100160AFCA20060CBE2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B40C2101160AFCA20060CBE2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B40C2103160AFCA20060CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B40C2104160AFCA20060CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B40C2106160AFCA20060CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK_KeyboardAccessoryExample/SK_KeyboardAccessoryExample-Prefix.pch";
+				INFOPLIST_FILE = "SK_KeyboardAccessoryExample/SK_KeyboardAccessoryExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B40C2107160AFCA20060CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK_KeyboardAccessoryExample/SK_KeyboardAccessoryExample-Prefix.pch";
+				INFOPLIST_FILE = "SK_KeyboardAccessoryExample/SK_KeyboardAccessoryExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B40C20E1160AFCA10060CBE2 /* Build configuration list for PBXProject "SK_KeyboardAccessoryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C2103160AFCA20060CBE2 /* Debug */,
+				B40C2104160AFCA20060CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40C2105160AFCA20060CBE2 /* Build configuration list for PBXNativeTarget "SK_KeyboardAccessoryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C2106160AFCA20060CBE2 /* Debug */,
+				B40C2107160AFCA20060CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B40C20DE160AFCA10060CBE2 /* Project object */;
+}
